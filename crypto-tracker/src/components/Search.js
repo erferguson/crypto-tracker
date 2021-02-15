@@ -1,6 +1,15 @@
 import React from 'react'
 
-const Search = () => {
+import { useState  } from 'react'
+
+const Search = ({ search, setSearch}) => {
+
+    // const [search, setSearch] = useState('')
+
+    const handleChange = e => {
+        setSearch(e.target.value)
+      }
+
     return (
     <div className="coin-search">
         <h1 className='coin-text'>Search a Currency</h1>
@@ -9,7 +18,7 @@ const Search = () => {
           type="text" 
           placeholder='Search' 
           className="coin-input"
-          // onChange={}
+          onChange={handleChange}
           />
         </form>
     </div>

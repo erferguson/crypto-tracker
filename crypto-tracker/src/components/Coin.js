@@ -1,6 +1,7 @@
 import React from 'react'
 
-const Coin = () => {
+const Coin = ({ image, name, symbol, price, volume }) => {
+    console.log(volume)
     return (
         <div className='coin-container'>
             <div className="row">
@@ -11,7 +12,7 @@ const Coin = () => {
                 </div>
                 <div className="coin-data">
                     <p className="coin-price">${price}</p>
-                    <p className="coin-volume">${volume.toLocalString()}</p>
+                    <p className="coin-volume">${volume}</p>
                 </div>
             </div>
         </div>

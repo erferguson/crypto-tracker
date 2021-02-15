@@ -28,4 +28,10 @@ Be able to search currencies and have them display on the browser while the pric
 
         - Coin, rafce
             - basic jsx + classNames
-            
+            - props, passed in from App
+            * volume.toLocalString kicks an error
+            {volume.toLocalString('en-US', {style:'currency', currency:'USD'})
+        
+        - Search, rafce
+            - basic jsx + classNames
+            - handelChange with setSearch
