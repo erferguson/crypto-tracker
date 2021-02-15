@@ -4,6 +4,7 @@ import axios from 'axios'
 import { useState, useEffect } from 'react'
 
 import Search from './components/Search'
+import DataTitles from './components/DataTitles'
 import Coin from './components/Coin'
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
           />
         </form>
       </div> */}
+      <DataTitles />
       {filteredCoins.map(coin => {
         return (
           <Coin 

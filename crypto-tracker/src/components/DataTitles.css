@@ -1,0 +1,17 @@
+
+.dataTitle-main-container{
+    width: 1000px;
+    display: flex;
+    justify-content: flex-end;
+}
+.dataTitle-container {
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dataTitle-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 50px;
+}
