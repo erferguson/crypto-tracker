@@ -23,4 +23,9 @@ Be able to search currencies and have them display on the browser while the pric
         - .then set to setCoins
         - tested, data passes 
     
-    - 
+    - JSX
+        - created Search & Coin components
+
+        - Coin, rafce
+            - basic jsx + classNames
+            
