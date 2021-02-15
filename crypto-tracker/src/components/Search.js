@@ -1,6 +1,8 @@
 import React from 'react'
 
-import { useState  } from 'react'
+import './Search.css'
+
+// import { useState  } from 'react'
 
 const Search = ({ search, setSearch}) => {
 

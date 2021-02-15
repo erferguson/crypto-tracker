@@ -30,3 +30,38 @@
     width: 30px;
     margin-right: 10px; 
 }
+
+.coin-symbol {
+    text-transform: uppercase
+}
+
+.coin-data {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.coin-price {
+    width: 110px;
+}
+
+.coin-volume {
+    width: 230px;
+}
+
+.coin-marketcap {
+    width: 155px;
+}
+
+.coin-percent {
+    width: 100%
+}
+
+.red {
+    color: #f00606;
+}
+
+.green {
+    color: #11d811;
+}
