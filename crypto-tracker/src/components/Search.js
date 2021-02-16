@@ -2,11 +2,7 @@ import React from 'react'
 
 import './Search.css'
 
-// import { useState  } from 'react'
-
-const Search = ({ search, setSearch}) => {
-
-    // const [search, setSearch] = useState('')
+const Search = ({ setSearch}) => {
 
     const handleChange = e => {
         setSearch(e.target.value)
@@ -14,7 +10,7 @@ const Search = ({ search, setSearch}) => {
 
     return (
     <div className="coin-search">
-        <h1 className='coin-text'>Search a Currency</h1>
+        <h1 className='coin-text'>Search a Crypto</h1>
         <form>
           <input 
           type="text" 
