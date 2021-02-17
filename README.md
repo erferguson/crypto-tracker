@@ -1,15 +1,15 @@
 # Crypto Trackr
-A cryptocurrency finance price tracker app which renders in real-time price, volume, change and market cap.
+A searchable cryptocurrency price tracker app which renders in real-time the price, volume, change and market cap.
 
 [Crypto Trackr](https://erferguson.github.io/crypto-tracker/)
 
 ## Overview
 Built using:
-    - React w/ useEffect & useState
-    - Axios
-    - [API](https://www.coingecko.com/en/api) 
-    - CSS
-    - Hosted w/ [GitHub Pages](https://github.com/gitname/react-gh-pages)
+- React w/ useEffect & useState
+- Axios
+- [API](https://www.coingecko.com/en/api) 
+- CSS
+- Hosted w/ [GitHub Pages](https://github.com/gitname/react-gh-pages)
 
 ## Outcome
 Be able to search currencies and have them display on the browser while the prices will update live. All of the data will pull from  a public API. 
