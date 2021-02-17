@@ -1,7 +1,7 @@
 # Crypto Trackr
 A searchable cryptocurrency price tracker app which renders in real-time the price, volume, change and market cap.
 
-[Crypto Trackr](https://erferguson.github.io/crypto-tracker/)
+[Crypto Trackr](https://erferguson.github.io/crypto-trackr/)
 
 ## Overview
 Built using:
