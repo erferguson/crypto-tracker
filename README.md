@@ -1,12 +1,15 @@
-# crypto-tracker
-A cryptocurrency finance price tracker app.
+# Crypto Trackr
+A cryptocurrency finance price tracker app which renders in real-time price, volume, change and market cap.
+
+[Crypto Trackr](https://erferguson.github.io/crypto-tracker/)
 
 ## Overview
-- Built using:
+Built using:
     - React w/ useEffect & useState
     - Axios
-    - API : https://www.coingecko.com/en/api
-     We will use React Hook and Axios for this beginner React JS Project. We will mainly use useEffect and useState in this tutorial. 
+    - [API](https://www.coingecko.com/en/api) 
+    - CSS
+    - Hosted w/ [GitHub Pages](https://github.com/gitname/react-gh-pages)
 
 ## Outcome
 Be able to search currencies and have them display on the browser while the prices will update live. All of the data will pull from  a public API. 
@@ -36,3 +39,4 @@ Be able to search currencies and have them display on the browser while the pric
         - Search, rafce
             - basic jsx + classNames
             - handelChange with setSearch
+
