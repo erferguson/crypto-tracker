@@ -10,7 +10,7 @@ Readme Driven Development with a component-based build approach.
 Built using:
 - React w/ useEffect & useState
 - Axios
-- Data pulled from a public[API](https://www.coingecko.com/en/api) 
+- Data pulled from a public [API](https://www.coingecko.com/en/api) 
 - CSS
 - Hosted w/ [GitHub Pages](https://github.com/gitname/react-gh-pages)
 - [![npm version](https://badge.fury.io/js/react.svg)](https://badge.fury.io/js/react) 
